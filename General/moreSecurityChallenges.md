@@ -8,6 +8,9 @@ Have fun, think like a hacker _and_ a defender, and remember:
 
 > **Security is not a feature — it’s a habit.**
 
+For more (interactive explanations):
+[Hacksplaining](https://www.hacksplaining.com/lessons)
+
 ---
 
 ## 🧃 1. OWASP Juice Shop

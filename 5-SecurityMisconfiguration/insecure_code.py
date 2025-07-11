@@ -1,6 +1,3 @@
-# This app runs in debug mode and exposes full error tracebacks when something goes wrong.
-# If deployed like this in production, it can leak sensitive implementation details.
-
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -9,7 +6,7 @@ app = Flask(__name__)
 def divide():
     a = int(request.args.get("a"))
     b = int(request.args.get("b"))
-    return str(a / b)  # Crashes if b = 0
+    return str(a / b)  
 
 if __name__ == "__main__":
-    app.run(debug=True)  # Insecure: debug mode reveals stack traces
+    app.run(debug=True)  
