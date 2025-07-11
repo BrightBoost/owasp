@@ -8,3 +8,4 @@ Plain text password storage is dangerous — anyone who accesses the database ca
 
 ```python
 users[username] = hashlib.sha256(password.encode()).hexdigest()
+```
